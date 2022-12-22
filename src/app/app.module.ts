@@ -5,6 +5,7 @@ import { FormsModule } from "@angular/forms";
 // for declarations
 import { AppComponent } from "./app.component";
 import { ProductListComponent } from "./products/product-list.component";
+import { ConvertToSpacesPipe } from "./shared/convert-to-spaces.pipe";
 
 // decorator
 @NgModule({
@@ -14,7 +15,8 @@ import { ProductListComponent } from "./products/product-list.component";
   ],
   declarations: [ 
     AppComponent,
-    ProductListComponent
+    ProductListComponent,
+    ConvertToSpacesPipe
   ],
   bootstrap: [ AppComponent ]
 })
